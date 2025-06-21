@@ -1,0 +1,50 @@
+.post-card-gradient-wrapper {
+  background: linear-gradient(135deg, #6f00ff, #9b59b6, #e91e63);
+  padding: 2px;
+  border-radius: 16px;
+}
+
+.post-card {
+  display: grid;
+  background-color: #1c0f2e;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(155, 89, 182, 0.2);
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 20px rgba(155, 89, 182, 0.4);
+}
+
+.post-avatar {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #9b59b6;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(155, 89, 182, 0.6);
+}
+
+.post-card p {
+  color: gold;
+  font-size: 1.05rem;
+  margin: 10px 0 15px;
+  white-space: pre-wrap;
+}
+
+.btn-outline-light.btn-sm {
+  border-color: #9b59b6;
+  color: #9b59b6;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.btn-outline-light.btn-sm:hover {
+  background-color: #9b59b6;
+  color: white;
+  border-color: #9b59b6;
+}

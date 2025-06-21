@@ -1,0 +1,142 @@
+body {
+  background-color: #0c0b10;
+  color: white;
+}
+
+.profile-container {
+  background-color: #1c0f2e;
+  border-radius: 16px;
+  padding: 30px;
+  max-width: 480px;
+  margin: 60px auto;
+  box-shadow: 0 0 30px rgba(155, 89, 182, 0.2);
+}
+
+.profile-container h2 {
+  text-align: center;
+  color: #bb6bd9;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.profile-avatar {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 3px solid #9b59b6;
+  background-color: #fff;
+}
+
+.profile-avatar-option {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: transform 0.2s ease, border 0.2s ease;
+}
+
+.profile-avatar-option:hover {
+  transform: scale(1.1);
+  border-color: #9b59b6;
+}
+
+.selected-avatar {
+  border-color: #9b59b6;
+  box-shadow: 0 0 10px rgba(155, 89, 182, 0.5);
+}
+
+.form-control {
+  background-color: #2d1a47;
+  color: white;
+  border: 1px solid #9b59b6;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(155, 89, 182, 0.25);
+  border-color: #bb6bd9;
+}
+
+.btn-primary {
+  background-color: #2980b9;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #3498db;
+}
+
+.btn-danger {
+  background-color: #c0392b;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #e74c3c;
+}
+
+label {
+  font-weight: 500;
+  color: #e0d3f5;
+}
+
+textarea {
+  resize: none;
+}
+
+/* Top bar header with glow effect */
+.top-bar-glow {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(90deg, #6f00ff, #9f00ff, #6f00ff);
+  box-shadow: 0 0 10px #9f00ff, 0 0 20px #6f00ff;
+  border-radius: 0 0 12px 12px;
+  animation: glow 3s ease-in-out infinite alternate;
+  text-align: center;
+  padding: 12px 0;
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 10px #6f00ff;
+  }
+  to {
+    box-shadow: 0 0 20px #9f00ff;
+  }
+}
+
+.app-name-text {
+  letter-spacing: 2px;
+}
+
+/* Button to go to Feed */
+.go-feed-btn {
+  background-color: gold;
+  color: #6f00ff;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  box-shadow: 0 0 8px rgba(255, 215, 0, 0.9);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+.go-feed-btn:hover {
+  background-color: #6f00ff;
+  color: gold;
+}
+.dropdown-menu.show {
+  z-index: 9999;
+  min-width: 160px;
+  background-color: #1f1f1f;
+  border: 1px solid #444;
+  border-radius: 10px;
+}

@@ -1,0 +1,65 @@
+.navbar {
+  background-color: #140a1e !important;
+  border-bottom: 1px solid #9b59b6;
+  box-shadow: 0 4px 8px rgba(155, 89, 182, 0.3);
+}
+
+.navbar .navbar-brand {
+  color: #bb6bd9;
+  font-size: 1.4rem;
+}
+
+.navbar .btn-outline-light:hover {
+  background-color: #9b59b6;
+  border-color: #9b59b6;
+}
+
+.navbar .btn-danger {
+  background-color: #e74c3c;
+  border: none;
+}
+
+.post-feed-container {
+  max-width: 600px;
+  margin: 0 auto;
+  color: white;
+}
+
+.post-card {
+  
+  background-color: #1b1129;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(150, 0, 255, 0.2);
+  margin-bottom: 1.5rem;
+}
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+}
+
+.post-feed-container {
+  padding: 0 16px;
+}
+
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.post-card {
+  background-color: #1b1129;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(150, 0, 255, 0.2);
+  color: gold;
+}
+.dropdown-menu.show {
+  z-index: 9999;
+  min-width: 160px;
+  background-color: #1f1f1f;
+  border: 1px solid #444;
+  border-radius: 10px;
+}
