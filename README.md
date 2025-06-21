@@ -4,6 +4,12 @@ A React + Firebase-based social media web application where users can create pos
 
 ---
 
+## 🌐 Live Demo
+
+👉 [Click here to view the deployed app](https://social-media-app-caf99.web.app/)
+
+---
+
 ## 📦 Project Setup Instructions
 
 1. **Clone the repository**
